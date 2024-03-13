@@ -2,7 +2,7 @@ package org.company;
 
 import java.util.Arrays;
 
-class NameRepository {
+class Namerepository {
 
     private static String[] names = {};
 
