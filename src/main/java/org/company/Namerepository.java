@@ -1,5 +1,5 @@
-package org.company;
-public class NameRepository {
+
+class NameRepository {
 
     private static String[] names = {};
 
@@ -8,8 +8,8 @@ public class NameRepository {
         return length;
     }
 
-    public static void setNames(String[] names) {
-        this.names = names.clone();
+    public void setNames(String[] names) {
+        NameRepository.names = names.clone();
     }
 
     public static void clear() {
